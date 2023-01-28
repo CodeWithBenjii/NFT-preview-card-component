@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/NFT-preview-card-component:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nft-preview-card-component:latest
